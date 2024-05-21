@@ -30,5 +30,6 @@ public class OverridingVsFieldHiding {
         sup1.m1();//parent
     }
 }
+//shadowing
 //Hiding: Does not support polymorphism. When accessing hidden fields,
 // the field used is determined statically based on the reference type, not dynamically based on the actual object type.
